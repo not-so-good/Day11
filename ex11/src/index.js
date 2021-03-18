@@ -6,6 +6,7 @@ function splitArrayInGroups(arr, n) {
     while(i < len) {
         result.push(arr.slice(i, (i += n)));
     }
+    
 return result;
 }
 
