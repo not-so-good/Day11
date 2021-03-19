@@ -7,7 +7,7 @@ function splitArrayInGroups(arr, n) {
         result.push(arr.slice(i, (i += n)));
     }
     
-return result;
+return result.slice(0, n);
 }
 
 //Only change code above this line
